@@ -1,0 +1,33 @@
+workflows:
+  ios-test-build:
+    name: iOS Test Build (No Signing)
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+
+    scripts:
+
+      - name: Install packages
+        script: flutter pub get
+
+      - name: Clean project
+        script: |
+          flutter clean
+          flutter pub get
+
+      - name: Setup pods
+        script: |
+          cd ios
+          pod install
+          cd ..
+
+      - name: Build without signing
+        script: |
+          flutter build ios --release --no-codesign
+
+    artifacts:
+      - build/ios/iphoneos/*.app
