@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "745780771757",
+    "project_id": "bangerdrop-aaed4",
+    "storage_bucket": "bangerdrop-aaed4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745780771757:android:8cb72d9c3b384601ef3f24",
+        "android_client_info": {
+          "package_name": "com.example.banger_drop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745780771757-m39rt6gpblsthk6nipcjqaha8ck0sish.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.banger_drop",
+            "certificate_hash": "8fcf45baa149549e9f32dd54260cdc54f54ee24d"
+          }
+        },
+        {
+          "client_id": "745780771757-9u5c10hsdlslm3abpaa0duf074iidup9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBP5sUA7J9IWnDgQrbNLc8bQ65qURUOIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745780771757-9u5c10hsdlslm3abpaa0duf074iidup9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "745780771757-3g5hjs5j5dit9lpvqlekraa5vdqolufj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bangerDrop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Banger_Drop</string>
+    <string name="facebook_app_id">1230028468641894</string>
+    <string name="fb_login_protocol_scheme">fb1230028468641894</string>
+    <string name="facebook_client_token">ce981942505b761bf92ced92f1755a96</string>
+</resources>
+
